@@ -1,2 +1,16 @@
 # This file contains additional pkgconfig build requirements that did
 # not get picked up automatically. One name per line, no whitespace.
+alsa
+libffado
+readline
+opus
+eigen3
+portaudio-2.0
+libsystemd
+libudev
+systemd
+udev
+tinfo
+tinfow
+ncursesw
+alsa-topology

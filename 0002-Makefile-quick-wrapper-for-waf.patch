@@ -18,7 +18,7 @@ index 0000000..af32891
 +.DEFAULT_GOAL: premake
 +
 +premake:
-+		$(PYTHON) ./waf configure --prefix=/usr --bindir=/usr/bin --libdir=/usr/lib64 
++		$(PYTHON) ./waf configure --prefix=/usr --bindir=/usr/bin --libdir=/usr/lib64 --dbus --classic --systemd-unit --alsa=yes --opus=yes --firewire=yes --readline=yes --samplerate=yes --sndfile=yes
 +install:
 +		$(PYTHON) ./waf install $*
 +clean:
